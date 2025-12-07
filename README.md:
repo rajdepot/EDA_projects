@@ -1,0 +1,36 @@
+# Exploratory Data Analysis: Student Performance Dataset
+
+## 1. Dataset Description
+
+This project uses a dataset of 1000 student records. Each row represents a single student and includes:
+
+- Unique student ID
+- Demographic info (age, gender, course of study)
+- Study habits (daily study hours, class attendance)
+- Lifestyle factors (sleep duration, sleep quality)
+- Access to resources (e.g., internet availability)
+- Academic environment (facility rating)
+- Exam difficulty level
+- Final exam score (0–100)
+
+The dataset is clean, consistent, and has no missing values. All values are within realistic ranges.
+
+## 2. Objective
+
+The goal is to:
+- Understand the structure and patterns in the data
+- Explore how study habits, lifestyle, and environment affect final exam scores
+- Generate insights that can guide academic decisions or further modeling
+
+## 3. Steps in the Analysis
+
+1. Import libraries and load the dataset
+2. Inspect and clean the data (types, duplicates, consistency checks)
+3. Perform descriptive statistics for numerical and categorical features
+4. Visualize distributions and relationships (histograms, boxplots, scatterplots, heatmaps)
+5. Group-by analysis (e.g., by gender, course, exam difficulty)
+6. Feature analysis to identify important factors for exam score
+7. Demonstrate advanced Python techniques:
+   - Lambda functions
+   - User-defined functions
+   - List comprehensions
